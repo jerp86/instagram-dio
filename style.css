@@ -122,7 +122,7 @@ body {
   justify-content: space-evenly;
 
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .app-download {
@@ -137,4 +137,35 @@ body {
 
 .app-download:nth-child(2) {
   background-image: url('./img/googleplay-button.png');
+}
+
+/* responsividade */
+/* 73.143rem */
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+/* 46.429rem */
+@media (max-width: 650px) {
+  body {
+    background-color: #FFF;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 0.071rem solid transparent;
+  }
 }
