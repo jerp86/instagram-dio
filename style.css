@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  max-height: 100vh;
+  background-color: #F3F3F3;
+
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  width: 60%;
+  height: 100vh;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.phone img {
+  height: 50rem;
+}
+
+.continue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #FFF;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 0.071rem solid #D3D3D3;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 6rem;
+}
+
+.login {
+  background-color: #0095F6;
+  color: #FFF;
+
+  padding: 0.571rem;
+  border-radius: 0.286rem;
+}
+
+.logout {
+  color: #0095F6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: #A0A0A0;
+}
+
+.link-blue {
+  color: #0095F6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.get-app {
+  font-size: 1.286rem;
+  font-weight: bold;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+  background-image: url('./img/googleplay-button.png');
+}
